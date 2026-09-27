@@ -1,0 +1,30 @@
+
+PERFORMANCE COMPARISON OF MERGE SORT AND QUICK SORT
+
+Input:
+20, 15, 20, 10, 15, 20, 25, 10
+
+Number of elements: 8
+
+Comparison Table:
+
+Criteria              Merge Sort       Quick Sort
+--------------------------------------------------
+Best-case time        O(n log n)       O(n log n)
+Average-case time     O(n log n)       O(n log n)
+Worst-case time       O(n log n)       O(n^2)
+Auxiliary space       O(n)             O(n)
+Stability             Stable           Stable*
+Comparisons (input)   15               20
+
+*Quick Sort is stable in the modified implementation used in this assignment. Standard in-place Quick Sort is generally not stable.
+
+OBSERVATION:
+
+Both algorithms produce the package weights in ascending order.
+
+Merge Sort performs 15 comparisons, while the stable Quick Sort implementation performs 20 comparisons for the given input.
+
+Merge Sort guarantees O(n log n) time complexity. Quick Sort is efficient on average, but its worst-case time complexity is O(n^2).
+
+The number of comparisons depends on the implementation and input arrangement.
