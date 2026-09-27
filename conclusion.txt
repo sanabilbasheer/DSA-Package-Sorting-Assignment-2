@@ -1,0 +1,14 @@
+
+CONCLUSION
+
+Merge Sort and Quick Sort were implemented in C to sort the given package weights in ascending order.
+
+Both algorithms successfully sorted the input data while maintaining the relative order of packages with equal weights in the stable implementations.
+
+For the given input, Merge Sort performed 15 comparisons, while Quick Sort performed 20 comparisons.
+
+Merge Sort guarantees O(n log n) time complexity and requires O(n) auxiliary space. Quick Sort has O(n log n) average-case time complexity and O(n^2) worst-case time complexity.
+
+Therefore, Merge Sort is suitable when guaranteed performance and stability are required. Quick Sort is also useful for sorting, particularly when average-case efficiency is important.
+
+The experiment demonstrates the importance of comparing algorithms based on execution results, time complexity, space complexity, and stability.
