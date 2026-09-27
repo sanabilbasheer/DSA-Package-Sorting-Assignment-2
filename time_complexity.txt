@@ -1,0 +1,33 @@
+TIME AND SPACE COMPLEXITY ANALYSIS
+
+1. MERGE SORT
+
+Best Case Time Complexity: O(n log n)
+Average Case Time Complexity: O(n log n)
+Worst Case Time Complexity: O(n log n)
+
+Space Complexity: O(n)
+
+Explanation:
+Merge Sort divides the array into two halves recursively and merges the sorted halves. The number of levels is log n, and merging at each level requires O(n) time. Therefore, the total time complexity is O(n log n).
+
+It requires an additional temporary array for merging, so its auxiliary space complexity is O(n).
+
+2. QUICK SORT
+
+Best Case Time Complexity: O(n log n)
+Average Case Time Complexity: O(n log n)
+Worst Case Time Complexity: O(n^2)
+
+Space Complexity:
+O(n) auxiliary space for the temporary array in the stable implementation, plus recursion stack space.
+
+Explanation:
+Quick Sort selects a pivot and partitions the elements around it. When partitions are balanced, the time complexity is O(n log n).
+
+When partitions are highly unbalanced, the time complexity becomes O(n^2).
+
+The stable implementation uses an additional temporary array during partitioning. The recursion stack requires O(log n) space on average and O(n) in the worst case.
+
+CONCLUSION:
+Merge Sort guarantees O(n log n) time complexity in all cases. Quick Sort has O(n log n) average-case time complexity but O(n^2) worst-case time complexity.
