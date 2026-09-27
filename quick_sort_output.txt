@@ -1,0 +1,11 @@
+
+Original package weights:
+20 15 20 10 15 20 25 10
+
+Sorted package weights:
+10 10 15 15 20 20 20 25
+
+Sorted package IDs:
+P4 P8 P2 P5 P1 P3 P6 P7
+
+Number of comparisons: 20
